@@ -18,9 +18,9 @@ pip3 install requests
 python3 login_brute_force.py -e user@email.com -u http://<IP> -d /dictionary.txt
 
 ## Ejemplo de uso
-python3 login_brute_force.py -e admin@mail.com -u http://192.168.1.133 -d /dictionary.txt
+python3 login_brute_force.py -e admin@mail.com -u http://192.168.1.133/login.php -d /dictionary.txt
 
-python3 login_brute_force.py --email admin@mail.com --url http://192.168.1.133 --dictionary /rockyou.txt
+python3 login_brute_force.py --email admin@mail.com --url http://192.168.1.133/login.php --dictionary /rockyou.txt
 
 ## Parámetros
 **-e; --email** indica el email al cual se va a atacar.
