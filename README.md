@@ -15,7 +15,7 @@ La herramienta está diseñada para probar contraseñas que cumplan:
 pip3 install requests
 
 ## Uso de la herramienta
-python3 login_brute_force.py -e user@email.com -u http://<IP> -d /dictionary.txt
+python3 login_brute_force.py -e user@email.com -u http://IP -d /dictionary.txt
 
 ## Ejemplo de uso
 python3 login_brute_force.py -e admin@mail.com -u http://192.168.1.133/login.php -d /dictionary.txt
